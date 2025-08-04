@@ -70,7 +70,7 @@ Our goal is to develop a **scalable scheduling algorithm capable of dynamic deci
 
 ### 4️⃣ Scheduling agent with PPO algorithm
 #### 4.1 Network Structure
-<img src="figure/TP_network_structure.png"/>
+<img src="BRP_figure/TP_network_structure.png"/>
 
 
 - **Representation module**
