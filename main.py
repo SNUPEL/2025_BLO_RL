@@ -3,6 +3,7 @@ import random
 from Retrieval import *
 from Placement import *
 from Scheduling import*
+from Simulation import*
 import math
 from Placement_heuristic import *
 
@@ -129,5 +130,6 @@ if __name__=="__main__":
             #vessl.log(step=step, payload={'eval_reward': eval_reward / eval_num})
     np.save('history_big.npy',history)
     np.save('eval_history_big.npy', eval_history)
+
 
 
