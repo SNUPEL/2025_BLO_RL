@@ -8,7 +8,7 @@
 
 ## Project Overview
 - **Project**
-    - Block transportation scheduling algorithm with graph reinforcement learning
+    - Integrated shipyard block logistic optimization
 - **Superviser**
     - Prof. Jong Hun Woo (SNU, KOREA)
 - **Data provider**
@@ -17,10 +17,11 @@
 <br>
 
 ## Project Introduction
-We develop a block transportation scheduling algorithm for shipyards 
+We develop a integrated shipyard block logistic optimization algorithm for shipyards 
 <br>
-The Block Transportation Scheduling Problem (BTSP) is a key logistics challenge in shipyards. <br>
-Our goal is to develop a **scalable scheduling algorithm capable of dynamic decision-making**. <br>
+Block logistic is composed of block transportation scheduling and storage optimization in block storage yard
+Our project focued on **integrated simulation of two main problem and joint optimization algorithm**
+
 
 <img src="BRP_figure/BLO_problem.png"/>
 <br>
@@ -54,11 +55,11 @@ Our goal is to develop a **scalable scheduling algorithm capable of dynamic deci
         - occupied quay walls with preemption allowed
 
 #### 2.3 Reward
-- minimization of the total cost in the post-stage outfitting process
+- minimization of the total coss
 - a sum of three cost-related rewards
-    - **penalty cost**: the penalty cost for the delay in the delivery of vessels
-    - **moving cost**: the cost of moving the vessels
-    - **loss cost**: the additional processing cost
+    - **Empty travel time**: the penalty cost for the delay in the delivery of vessels
+    - **Tardiness**: the cost of moving the vessels
+    - **Block relocation**: the additional processing cost
 
 <br>
 
