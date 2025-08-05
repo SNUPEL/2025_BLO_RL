@@ -58,8 +58,8 @@ Our project focued on **integrated simulation of two main problem and joint opti
 #### 2.3 Reward
 - minimization of the total coss
 - a sum of three cost-related rewards
-    - **Empty travel time**: the penalty cost for the delay in the delivery of vessels
-    - **Tardiness**: the cost of moving the vessels
+    - **Empty travel time**: the cost of operating the transporter
+    - **Tardiness**: the penalty cost for the delay in the delivery of block
     - **Block relocation**: the additional processing cost
 
 <br>
