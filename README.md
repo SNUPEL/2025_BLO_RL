@@ -30,7 +30,10 @@ Our project focued on **integrated simulation of two main problem and joint opti
 ## Main Function
 
 ### 1️⃣ Overall framework
+#### 1.1 Algorithm overview
 <img src="BRP_figure/BLO_framework.png"/>
+Retrieval and Placment decision are consdiered as independent decision 
+Integrated optimization was composed by scheduling algorithm
 
 <br>
 
