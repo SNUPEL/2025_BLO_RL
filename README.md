@@ -19,7 +19,7 @@
 ## Project Introduction
 We develop a integrated shipyard block logistic optimization algorithm for shipyards 
 <br>
-Block logistic is composed of block transportation scheduling and storage optimization in block storage yard
+Block logistic is composed of block transportation scheduling and storage optimization in block storage yard <br>
 Our project focued on **integrated simulation of two main problem and joint optimization algorithm**
 
 
