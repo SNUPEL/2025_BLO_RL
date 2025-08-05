@@ -48,15 +48,12 @@ Our project focued on **integrated simulation of two main problem and joint opti
     - **Crystal graph convolutional neural network**: graph neural network that suitable for encoding edge attributed graph
 
 #### 2.2 Action
-- a combination of the vessel and quay-wall (machine assignment and job sequencing)
-    - **candidate vessels**
-        - newly launched vessels from the docks
-        - vessels returning from sea trials
-        - vessels waiting at sea owing to the shortage of quay-walls
-        - vessels that need to be reallocated due to interruption
-    - **candidate quay walls**
-        - empty quay walls
-        - occupied quay walls with preemption allowed
+- Assigining next transportation block for earilest finishing tranporter
+    - **candidate blocks**
+        - weight capacity constraint
+        - ready time constraint 
+    - **candidate transporter**
+        - rule based agent selection by earliest finishing tranporter
 
 #### 2.3 Reward
 - minimization of the total coss
