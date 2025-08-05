@@ -60,8 +60,7 @@ Our project focued on **integrated simulation of two main problem and joint opti
 - a sum of three cost-related rewards
     - **Empty travel time**: the cost of operating the transporter
     - **Tardiness**: the penalty cost for the delay in the delivery of block
-    - **Block relocation**: the additional processing cost
-
+    - **Block relocation**: the cost occrus in storage yard
 <br>
 
 ### 3️⃣ DES-based learning environment
