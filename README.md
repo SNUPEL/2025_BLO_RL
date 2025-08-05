@@ -32,8 +32,8 @@ Our project focued on **integrated simulation of two main problem and joint opti
 ### 1️⃣ Overall framework
 #### 1.1 Algorithm overview
 <img src="BRP_figure/BLO_framework.png"/>
-Retrieval and Placment decision are consdiered as independent decision 
-Integrated optimization was composed by scheduling algorithm
+- Retrieval and placement are considered independent decisions. <br>
+- The integrated optimization is achieved through the scheduling algorithm.<br>
 
 <br>
 
